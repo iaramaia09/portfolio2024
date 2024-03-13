@@ -1,6 +1,15 @@
+
+@import url('https://fonts.cdnfonts.com/css/cyberdyne');
+                
+
 *{
     padding: 0px;
     margin: 0px;
+}
+
+.corpo{
+    margin-left: 7vw;
+    
 }
 
 body{
@@ -11,12 +20,13 @@ body{
 .imgUm{
     position: absolute;
     width: 50vw;
+    left: 0;
 }
 
 
 .cabeca{
     display: flex;
-    margin-left: 55vw;
+    margin-left: 48vw;
     margin-top: 5vh;
     gap: 2vw;
     font-family: "Bruno Ace", sans-serif;
@@ -34,9 +44,21 @@ a{
 
 .titulo{
     color: #505BBC;
+    font-family: 'Cyberdyne 3D', sans-serif;
+    font-size: 9vw;
+    margin-top: 12vh;
 }
 
 .subtitulo{
     color: #505BBC;
+    font-family: "Bruno Ace", sans-serif;
+    font-size: 3vw;
+}
+
+.rei{
+    position: absolute;
+    top: 10vh;
+    width: 28vw;
+    right: 5vw;
 }
 
