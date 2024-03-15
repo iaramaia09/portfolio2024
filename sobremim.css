@@ -1,0 +1,46 @@
+
+.sobremim {
+    background-color: rgb(0, 0, 0);
+        
+    height: 100vh;  
+  }
+
+  .titulosobremim{
+    color: #3442BF;
+    font-family: "Bruno Ace", sans-serif;
+    font-size: 6vw;
+    padding-top: 6vh;
+    text-align: center;
+  }
+
+  .contesobremim{
+    display: flex;
+    margin-top: 10vh;
+  }
+  
+  .japa{
+    color: #3442BF;
+    -webkit-writing-mode: vertical-rl;
+    -moz-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    margin-left: 10vw;
+    font-size: 3vw;
+    font-weight: 100;
+  }
+  .asuka{
+    width: 30vw;
+  }
+
+  .textoSobreMim{
+    font-family: "Bruno Ace", sans-serif;
+    color: #8CA6DA;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 1.5vw;
+    margin-bottom: 4vh;
+  }
+
+  
+
+ 

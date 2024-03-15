@@ -9,7 +9,7 @@
 
 .corpo{
     margin-left: 7vw;
-    
+    height: 100vh;
 }
 
 body{
@@ -47,6 +47,11 @@ a{
     font-family: 'Cyberdyne 3D', sans-serif;
     font-size: 9vw;
     margin-top: 12vh;
+}
+
+.dectexto{
+    width: 25vw;
+    margin-top: 5vh;
 }
 
 .subtitulo{
