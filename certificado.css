@@ -1,0 +1,10 @@
+.certificados{
+    background-color: rgb(0, 0, 0);
+    height: 108vh;
+  }
+
+  .certificadotitulo{
+    color: #3442BF;
+    font-family: "Bruno Ace", sans-serif;
+    font-size: 4vw;
+  }

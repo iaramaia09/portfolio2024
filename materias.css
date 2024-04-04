@@ -1,0 +1,102 @@
+.materias{
+    height: 108vh;
+  }
+
+  .materiatitulo{
+    position: relative;
+    color: #3442BF;
+    font-family: "Bruno Ace", sans-serif;
+    font-size: 4vw;
+    padding-top: 6vh;
+    text-align: center;
+  }
+
+  .estrelarabinho{
+    position: relative;
+    left: 27vw;
+    top: -12vw;
+    width: 20vw;
+  }
+
+  .borda1{
+    width: 13vw;
+    position: relative;
+    left: -2vw;
+    top: 8vw;
+  }
+
+  .borda2{
+    width: 18vw;
+    position: relative;
+    left: 29vw;
+    top: 19vw;
+  }
+
+  .personagens{
+    position: relative;
+    top: -6vw;
+    display: flex;
+    gap: 1.5vw;
+    justify-content: center;
+  }
+
+    .card{
+      width: 13vw;
+      height: 22vw;
+      /* overflow: hidden; */
+    }
+
+    .intro{
+      position: absolute;
+      bottom: 0vw;
+      width: 13vw;
+      text-align: center;
+      height: 0;
+      opacity: 0;
+     
+    }
+
+    .card:hover .intro{
+      height: auto;
+      opacity: 100%;
+      bottom: -1.1vw;
+      transition: .5s;
+    }
+
+    .verde{
+      background-color: #173D0A;
+    }
+
+    .roxo{
+      background-color: #363C72;
+    }
+
+    .marrom{
+      background-color: #603D29;
+    }
+
+    .vermelho{
+      background-color: #6A2B27;
+    }
+
+  .imgmateria{
+    transition: transform 0.3s ease;
+    width: 13vw;
+    height: 22vw;
+  }
+
+  .imgmateria:hover{
+    transform: scale(1.1);
+  }
+
+  .TI{
+    background-color: black;
+  }
+
+  .imgti{
+    transition: transform 0.3s ease;
+  }
+
+  .imgti:hover{
+    transform: scale(1.1);
+  }
