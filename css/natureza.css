@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.corponatureza{
+    background-color: black;
+    height: 108vh;
+}
+
+.titulonatureza{
+    color: aliceblue;
+}

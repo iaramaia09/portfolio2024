@@ -3,7 +3,11 @@
     padding: 0;
 }
 
-.corpohumanas{
+.corpomtm{
     background-color: black;
     height: 108vh;
+}
+
+.titulomtm{
+    color: aliceblue;
 }
