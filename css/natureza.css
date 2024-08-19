@@ -3,11 +3,60 @@
     padding: 0;
 }
 
+.junto{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+.lado{
+    position: absolute;
+    right: 0px;
+    top: 0;
+    height: 100vh;
+}
+
+.Voltar{
+    display: flex;
+    text-decoration: none;
+    color: #3442BF;
+    font-family: "Bruno Ace", sans-serif;
+    align-items: center;
+    width: 10%;
+}
+
+.flecha{
+    width: 1vw;
+}
+
 .corponatureza{
-    background-color: black;
-    height: 108vh;
+    background-color: #1A1A1A;
+    height: 100vh;
+    position: relative;
+
 }
 
 .titulonatureza{
-    color: aliceblue;
+    color: #3442BF;
+    font-size: 5vw;
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    font-family: "Bruno Ace", sans-serif;
+}
+
+.botao{
+    display: flex;
+    flex-direction: column;
+    background-color: #3442BF;
+    gap: 2vw;
+}
+
+.carro{
+    margin-left: 30vw;
 }

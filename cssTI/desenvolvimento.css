@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.desenvolvimento{
+    background-color: #1A1A1A;
+    height: 108vh;
+}
+
+.titulodesenvolvimento{
+    color: aliceblue;
+}
+
+p{
+    color: aliceblue;
+}

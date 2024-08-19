@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bancodedadoscorpo{
+    background-color: #1A1A1A;
+    height: 108vh;
+}
+
+.titulobanco{
+    color: aliceblue;
+}
+
+p{
+    color: aliceblue;
+}
