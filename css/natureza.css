@@ -45,7 +45,7 @@ header{
     color: #3442BF;
     font-size: 5vw;
     display: flex;
-    width: 90%;
+    width: 80%;
     justify-content: center;
     font-family: "Bruno Ace", sans-serif;
 }
@@ -53,10 +53,23 @@ header{
 .botao{
     display: flex;
     flex-direction: column;
-    background-color: #3442BF;
-    gap: 2vw;
+    gap: 4vw;
+}
+
+.botao a button{
+    margin-left: 15vw;
+    font-size: 20px;
+    color: #3442BF;
+    background-color: #222222;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    width: 20vw;
+    box-shadow: 10px 5px 20px  black inset;
+    font-family: "Bruno Ace", sans-serif;
 }
 
 .carro{
-    margin-left: 30vw;
+    margin-left: 0vw;
+    width: 55vw;
 }
