@@ -34,16 +34,17 @@ header{
     width: 1vw;
 }
 
-.corpolinguagens{
+.tri1humanascorpo{
     background-color: #1A1A1A;
     height: 100vh;
     position: relative;
 
 }
 
-.titulolinguagens{
+.titulo1trihumanas{
     color: #3442BF;
-    font-size: 5vw;
+    margin-top: 2vw;
+    font-size: 4vw;
     display: flex;
     width: 80%;
     justify-content: center;

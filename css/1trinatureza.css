@@ -34,16 +34,17 @@ header{
     width: 1vw;
 }
 
-.corpolinguagens{
+.corpo1natureza{
     background-color: #1A1A1A;
     height: 100vh;
     position: relative;
 
 }
 
-.titulolinguagens{
+.titulo1natureza{
     color: #3442BF;
-    font-size: 5vw;
+    margin-top: 2vw;
+    font-size: 3vw;
     display: flex;
     width: 80%;
     justify-content: center;

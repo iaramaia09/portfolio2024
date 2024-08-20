@@ -3,11 +3,73 @@
     padding: 0;
 }
 
+.junto{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+.lado{
+    position: absolute;
+    right: 0px;
+    top: 0;
+    height: 100vh;
+}
+
+.Voltar{
+    display: flex;
+    text-decoration: none;
+    color: #3442BF;
+    font-family: "Bruno Ace", sans-serif;
+    align-items: center;
+    width: 10%;
+}
+
+.flecha{
+    width: 1vw;
+}
+
 .corpohumanas{
-    background-color: black;
-    height: 108vh;
+    background-color: #1A1A1A;
+    height: 100vh;
+    position: relative;
+
 }
 
 .titulohumanas{
-    color: aliceblue;
+    color: #3442BF;
+    font-size: 5vw;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    font-family: "Bruno Ace", sans-serif;
+}
+
+.botao{
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+}
+
+.botao a button{
+    margin-left: 15vw;
+    font-size: 20px;
+    color: #3442BF;
+    background-color: #222222;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    width: 20vw;
+    box-shadow: 10px 5px 20px  black inset;
+    font-family: "Bruno Ace", sans-serif;
+}
+
+.carro{
+    margin-left: 0vw;
+    width: 55vw;
 }
