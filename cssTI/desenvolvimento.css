@@ -3,15 +3,136 @@
     padding: 0;
 }
 
-.desenvolvimento{
+body{
     background-color: #1A1A1A;
-    height: 108vh;
+    
 }
 
-.titulodesenvolvimento{
-    color: aliceblue;
+.sec{
+    background-color: #000000;
+    display: flex;
+    gap: 80px;
+    flex-direction: column
 }
 
-p{
-    color: aliceblue;
+
+.junto{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+.lado{
+    position: absolute;
+    right: 0px;
+    top: 0;
+    height: 100vh;
+}
+
+.Voltar{
+    display: flex;
+    text-decoration: none;
+    color: #3442BF;
+    font-family: "Bruno Ace", sans-serif;
+    align-items: center;
+    width: 10%;
+}
+
+.flecha{
+    width: 1vw;
+}
+
+.titulobancodedados{
+    color: #3442BF;
+    margin-top: 2vw;
+    font-size: 4vw;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    font-family: "Bruno Ace", sans-serif;
+}
+
+.botao{
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+}
+
+.botao a button{
+    margin-left: 15vw;
+    font-size: 20px;
+    color: #3442BF;
+    background-color: #222222;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    width: 20vw;
+    box-shadow: 10px 5px 20px  black inset;
+    font-family: "Bruno Ace", sans-serif;
+}
+
+.carro{
+    margin-left: 0vw;
+    width: 55vw;
+}
+
+.tri1 {
+    background-color: rgb(0, 0, 0);
+    
+  }
+
+  .bancodedados1tri{
+    color: #3442BF;
+    font-family: "Bruno Ace", sans-serif;
+    font-size: 4vw;
+    padding-top: 6vh;
+    text-align: center;
+    margin-bottom: 20vh;
+  }
+
+  .letrinhas{
+    display: flex;
+    color: #3442BF;
+    font-family: "Bruno Ace", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+ 
+  .tudo{
+    display: flex;
+    justify-content: space-around
+  }
+
+  .texto{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 50vw;
+  }
+
+  .miniatura{
+    display: flex;
+    flex-direction: column
+  }
+
+  .textoatv{
+    display: flex;
+  }
+
+  .link{
+    margin-bottom: 5vh;
+  }
+
+  .tituloatv{
+    margin-bottom: 3vw;
+  }
+
+  .imgatv{
+    width: 30vw;
+  }
